@@ -1981,19 +1981,24 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 /* ================= RESUME TEXT COLOR FIX ================= */
+/* ===== FIX RESUME TEXT VISIBILITY ===== */
 
-.resume,
 .resume p,
 .resume span,
+.resume li,
 .resume .timeline-text,
-.resume .timeline-item-title {
-  color: var(--light-gray);
+.resume .timeline-item-title,
+.resume .timeline-item span {
+  color: #d6d6d6 !important;
 }
 
-.resume .timeline-item-title {
-  color: var(--white-2);
+.resume h3,
+.resume h4 {
+  color: #ffffff !important;
 }
 
-.resume .h3 {
-  color: var(--white-2);
+/* Education & Internship description spacing */
+.resume .timeline-item {
+  margin-bottom: 20px;
 }
+
