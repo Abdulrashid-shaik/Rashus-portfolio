@@ -1980,3 +1980,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   overflow: hidden;
 }
 
+/* ================= RESUME TEXT COLOR FIX ================= */
+
+.resume,
+.resume p,
+.resume span,
+.resume .timeline-text,
+.resume .timeline-item-title {
+  color: var(--light-gray);
+}
+
+.resume .timeline-item-title {
+  color: var(--white-2);
+}
+
+.resume .h3 {
+  color: var(--white-2);
+}
